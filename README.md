@@ -1,5 +1,5 @@
 1. The Clone App of Virgin.com is built using ReactJS 
-2. we do not claim copy rights , the site is built for Educational purpose
+2. the site is built for Educational purpose
 3. Here ReactJS concepts like use of Hooks , components resuse , responsive behaviour and function Based approach can be seen 
 4. ![Screenshot (22)](https://user-images.githubusercontent.com/95466685/169644943-6ccc8be3-4105-4eec-8870-03bd54ddb605.png)
 ![Screenshot (23)](https://user-images.githubusercontent.com/95466685/169644951-1ef47555-8715-44bd-acf6-efc965fd4bcd.png)
