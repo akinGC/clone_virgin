@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.close_wrapper{
+    
+    font-family:'Barlow', sans-serif;
+    display: flex;
+    
+}
+.close_wrap_frst_part{
+
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    width: 25vw;
+    margin-left: 3vw;
+    margin-top: 10vh;
+    font-weight: 700;
+    font-size: 2.5vw;
+}
+.close_frst_items:hover{
+    color: red;
+    cursor: pointer;
+}
+.close_wrap_scnd_part{
+    
+    width: 72vw;
+}
+.close_scnd{
+   
+    width: 71.5vw;
+    height: 90vh;
+    display: flex;
+}
+/* .frst_parts{
+    display: none;
+} */
+.scnd_part{
+    display: none;
+}
+.trd_part{
+  display: none;
+}
+.four_part{
+    display: none;
+}
+.five_part{
+    display: none;
+}
+.six_part{
+    display: none;
+}
+.close_scnd_text{
+    display: flex;
+    flex-direction: column;
+  
+    width: 20vw;
+    height: 70vh;
+    margin-top: 10vh;
+    gap: 5vh;
+    padding-left: 3vw;
+    font-weight: 700;
+    letter-spacing: 0.1vw;
+    
+
+}
+.close_options:hover{
+    color: red;
+    cursor: pointer;
+}
+.close_imagesec{
+ 
+    height: 89vh;
+    
+   
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
+	width: 50vw;
+}
+#main_frst{
+    color: red;
+}
+.five_img{
+    background: url("../Images/scoop/Branson-Family_Hero.png")no-repeat;
+    background-size: cover;
+  background-position: -12vw;
+}
+.frst_img{
+    background: url("https://images.ctfassets.net/rxqefefl3t5b/5MGlBsN6aGY3uFGNgbBWem/2269a209391e88b15e138c3f22096259/hero_script-red-4.jpg?fl=progressive&q=80")no-repeat;
+    background-size: cover;
+  /* background-position: -12vw; */
+}
+.scnd_img{
+  background: url("https://www.startupstories.in/wp-content/uploads/2018/04/Virgin-brands-02.jpg");
+    background-size: cover;
+  background-position: -12vw;
+}
+.four_img{
+    background: url("https://images.ctfassets.net/rxqefefl3t5b/3CzATALdH4U9U4om0oWtQJ/a82dabac97d22e5eb4f2a1022a16769b/Virgin-Unite_Hero.png")no-repeat;
+    background-size: cover;
+  background-position: right;
+}
+

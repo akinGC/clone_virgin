@@ -1,0 +1,473 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.virgineve{
+    background-color:  rgb(240, 247, 255);
+}
+.whole_dropdown{
+    display: flex;
+    border: 1px solid aliceblue;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-family:'Barlow', sans-serif;
+    color: black;
+    font-weight: 700;
+    height: 9vh;
+    background-color: white;
+}
+.frtsonabt{
+    margin-left: 4vw;
+}
+.dropdown_frstline{
+    margin-top: 3vh;
+    letter-spacing: 0.1vw;
+
+}
+.frsthover:hover{
+    cursor: pointer;
+    color: red ;
+}
+.vrgred{
+    padding-left: 2vw;
+}
+.drop_arwdwn{
+    margin-left: 1vw;
+}
+.drop_options_wrap{
+    border-top: 3px solid red;
+    position: absolute;
+    top: 18.5vh;
+    background-color: white;
+    text-align: center;
+    display: none;
+}
+.aboutwrap{
+left: 18vw;
+width: 20vw;
+}
+.ourwrap{
+    width: 20vw;
+    left:38vw;
+}
+.famwrap{
+    width: 20vw;
+    left: 58vw;
+    padding-left: 2vw;
+    z-index: 999;
+    
+}
+.redwrap{
+    width: 19.9vw;
+left: 80vw;
+z-index: 999;
+
+}
+.options_scndline{
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+}
+.options_scndline:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.frtsonabt:hover .aboutwrap{
+    display: block;
+}
+.frtonour:hover .ourwrap{
+    display: block;
+}
+.frtonbran:hover .famwrap{
+    display: block;
+}
+.frtonvirgi:hover .redwrap{
+    display: block;
+}
+.redcontent{
+
+    height: 80vh;
+    display: flex;
+    background-color: red;
+}
+.redtexts{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2vw;
+    color: white;
+    letter-spacing: 0.1vw;
+    font-family:'Barlow', sans-serif;
+    padding-top: 10vh;
+    font-weight: 700;
+}
+.redtexts > h1{
+    font-size: 4vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.redhotelcrc{
+    background: url("../Images/redHotel.jpg") no-repeat;
+    background-size: cover;
+    height:400px ;
+    width: 400px;
+    border-radius: 50%;
+    position: relative;
+    left: 10vw;
+    top: 8vh;
+}
+.redcontent_triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 90px 98.5vw 0 0;
+    border-color: red transparent transparent transparent;
+}
+.redcontent_triangle_line{
+    height: 10vh;
+    border: 1px solid red;
+    width: 0%;
+    margin-left: 50%;
+    margin-top: -13vh;
+}
+
+.seewhat{
+   margin-top: 6vh;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.5vw;
+    height: 95vh;
+   background-color: rgb(240, 247, 255);
+    opacity: 0.9;
+}
+.reddot{
+    color: red;
+}
+
+.virgin_cards{
+    height: 50vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.virgin_card{
+    cursor: pointer;
+    font-family:'Barlow', sans-serif;
+    font-size: 2vw;
+    font-weight: 800;
+    background-color: white;
+}
+.virgin_card_arrow{
+    margin-left: 1vw;
+    color: red;
+}
+.virgin_card_image{
+    position: relative;
+    left: 1.3vw;
+    top: 3vh;
+    background-size: cover;
+    height: 35vh;
+    width: 21vw;
+}
+.galactic_card{
+    background: url("../Images/galactic.png") no-repeat;
+}
+.virginred_card{
+    background: url("../Images/vrgnred.png") no-repeat;
+ 
+}
+.orbit_card{
+    background: url("../Images/vrgnorbit.png") no-repeat;
+}
+.virgingroup_card{
+    background: url("../Images/title.png") no-repeat;
+   
+   
+}
+.lasthalf,.galactic_cards,.virginred_cards,.orbit_cards{
+    position: relative;
+    left: 13vw;
+}
+
+.virgin_card_text{
+    margin-top: 7vh;
+}
+.vrgn_card_btn{
+    margin-top: 15vh;
+    height: 7vh;
+    background-color: red;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    width: 15vw;
+    font-size: 1.1vw;
+    cursor: pointer;
+}
+.vrgn_card_btn:hover{
+background-color: rgb(230, 15, 15);
+}
+.whitetrang{
+    width: 0;
+height: 0;
+border-style: solid;
+border-width: 90px 98.5vw 0 0;
+border-color:  rgb(240, 247, 255) transparent transparent transparent;
+}
+.whitebar{
+    height: 10vh;
+    border: 1px solid red;
+    width: 0%;
+    margin-left: 50%;
+   margin-top: -10vh;
+
+}
+.scoop{
+    background-color: white;
+    height: 140vh;
+    margin-top: 10vh;
+}
+.scoop_headline{
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.5vw;
+    opacity: 0.9; font-family:'Barlow', sans-serif;
+}
+.scoopwrap{
+    margin-top: 4vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4vw;
+    padding-left: 5vw;
+}
+.scoop_card{
+    width: 27vw;
+    height: 55vh;
+}
+.scoop_image{
+    background:url(../Images/scoop/scoopfive.jpg) ;
+    background-size: cover;
+    height: 35vh;
+
+}
+.scoop_label{
+    color: red;
+    font-size: small;
+    background-color: white;
+    position: relative;
+    top: -3.5vh;
+    width: fit-content;
+    left: 2vw;
+    padding: 0.5vh;
+}
+.scoop_frsttxt{
+    font-weight: 700;
+    font-size: larger;
+    left: 2.3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   line-height: 4vh;
+width: 25vw;
+    position: relative;
+    top: -2vh;
+}
+.scoopdate{
+    margin-left: 2vw;
+    font-size: small;
+    font-weight: 600;
+    color: grey;
+    position: relative;
+    bottom:0px;
+}
+.viewmore{
+    position: absolute;
+    left: 43%;
+    padding: 2.5vh;
+    color: red;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: white;
+    font-size: medium;
+
+}
+.viewmore:hover{
+    border: 1px solid red;
+}
+.virgin_eachus{
+    height: 90vh;
+    margin-top: 10vh;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.virgin_eachus_two{
+    font-family:'Barlow', sans-serif;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.reachus_image{
+    background:url("https://vectorlogofree.com/wp-content/uploads/2013/06/virgin-group-vector-logo-400x400.png");
+    width: 17vw;
+    background-size: cover;
+    height: 40vh;
+}
+.reachus_scndline{
+    font-weight: 700;
+    font-size: xx-large;
+    opacity: 0.8;
+}
+.reachus_trdline{
+    margin-top: -5vh;
+}
+.reachus_icons{
+    width: 15vw;
+    font-size: larger;
+    display: flex;
+    justify-content: space-evenly;
+}
+.scoopicons:hover{
+    color: grey;
+    cursor: pointer;
+}
+.last_pink_slip{
+    height: 185vh;
+    margin-top: 5vh;
+    background-color: rgb(253, 234, 237);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+    padding-left: 10vw;
+    padding-top: 5vh;
+}
+.pink_card_wrap{
+    height: 170vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+}
+.pink_slip_imgsec{
+    height: 40vh;
+    width: 38vw;
+}
+.secone{
+background: url("../Images/pink/pinkgrp.png") no-repeat;
+}
+.sectwo{
+    background: url("../Images/pink/pinkgrptwo.png") no-repeat;
+
+}
+.secthree{
+    background: url("../Images/pink/pinkpic3.png") no-repeat;
+
+}
+.secfour{
+    background: url("../Images/pink/pinkvirgin.png")no-repeat;
+}
+.pink_slip_card{
+    width: 38vw;
+    height: 80vh;
+    background-color: white;
+}
+.pink_slip_trd_line{
+    display: flex;
+}
+.pink_slip_frstline{
+    font-weight: 700;
+    font-size: x-large;
+    margin-top: 2vh;
+    margin-bottom: -3vh;
+    opacity: 0.8;
+}
+.pink_slip_scnd_line{
+  font-size: large;
+}
+.pin_cover_txtx{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40vh;
+    margin-left: 2vw;
+}
+.pink_one{
+    margin-top: 1vh;
+   color: red;
+   margin-left: 1vw;
+}
+.pinktriangle_cut{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 90px 98.5vw 0 0;
+    border-color:  rgb(253, 234, 237) transparent transparent transparent;
+}
+.menu_conclusion{
+    margin-top: 20vh;
+    height: 62vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+    justify-content: space-between;
+    padding-bottom: 4vh;
+}
+.menu_conclusion_img{
+    background: url("https://www.virgin.com/img/virgin-logo-square.svg") no-repeat;
+    height: 12vh;
+    width:6vw;
+    background-size: cover;
+}
+.menu_conclusion_bars{
+    display: flex;
+    gap: 30vw;
+}
+.conclusion_bars_branwords{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.branwords_word{
+    font-size: x-large;
+    font-weight: 700;
+}
+.branwords_name{
+    text-align: right;
+}
+.conclusion_bars_cols{
+    display: flex;
+    gap: 3vw;
+}
+.bars_cols_frst,.bars_cols_scnd{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    font-size: small;
+    font-weight: 700;
+    opacity: 0.9;
+}
+.cols_frst_list:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.reachus_icons{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   width: 100%; 
+   gap: 1.8vw;
+    font-size: 1.6vw;
+}
+.menu_conclusion_rights{
+   margin-top: -2vh;
+   opacity: 0.6;
+    text-align: center;
+    color: grey;
+}

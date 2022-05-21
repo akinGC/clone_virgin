@@ -1,24 +1,37 @@
-import logo from './logo.svg';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Fragment, useEffect, useState } from 'react';
+import { faBars,faXmark } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
+import Menu from './components/Menu';
+import Close from './components/Close';
+
 
 function App() {
+  const [menu,setMenu] = useState(true);
+ 
+    function toggle(){
+    setMenu(!menu);
+      const tar = document.getElementById('virgin_nav_menu');
+      menu?tar.style.display='none':tar.style.display='block';
+    }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <nav className='virgin_navbar'>
+   
+        <div className='virgin_nav_menu'id='virgin_nav_menu'onClick={toggle} ><FontAwesomeIcon className='virgin_nav_menu_icon' icon={faBars}></FontAwesomeIcon>
+        <span className='virgin_nav_menu_txt'>menu</span>
+        </div>
+        <div className='virgin_nav_close'onClick={toggle}><FontAwesomeIcon className='virgin_nav_close_icon' icon={faXmark}></FontAwesomeIcon>
+        <span className='virgin_nav_close_txt'>close</span>
+        </div>
+        <div className='virgin_nav_title'></div>
+      </nav>
+     {
+       menu?<Menu/>:<Close/>
+     }
+     
+    </Fragment>
   );
 }
 

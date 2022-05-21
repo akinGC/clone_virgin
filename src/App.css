@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.virgin_nav_menu,.virgin_nav_close{
+  position: absolute;
+  text-transform: uppercase;
+  font-family:'Barlow', sans-serif;
+  color: red;
+  font-weight: 700;
+  font-size:large;
+  top: 2.5vh;
+  left: 2vw;
+  cursor: pointer;
+  background-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.virgin_nav_menu_icon,.virgin_nav_close_icon{
+  font-size: x-large;
+  margin-right: 1vw;
+ 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.virgin_nav_menu{
+  z-index: 999;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.virgin_navbar{
+  border: 2px solid aliceblue;
+  height: 9vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.virgin_nav_title{
+  background: url("./Images/tit.png") ;
+  background-size: cover;
+  background-position: center;
+  height:8vh;
+  width:4vw;
+ position: relative;
+ left: 45vw;
+  top: 0.5vh;
 }
